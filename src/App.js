@@ -29,4 +29,4 @@ this.state = {string: "Hello David"};
   );
 }
 }
-//export default App;
+export default App;
