@@ -15,6 +15,7 @@ this.state = {string: "Hello David"};
         <p>
         {this.state.string}
         </p>
+        <button onClick={()=>{this.setState({npm})}}></button>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -27,5 +28,5 @@ this.state = {string: "Hello David"};
     </div>
   );
 }
-
+}
 //export default App;
