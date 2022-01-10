@@ -15,7 +15,10 @@ this.state = {string: "Hello David"};
         <p>
         {this.state.string}
         </p>
-        <button onClick={()=>{this.setState({npm})}}></button>
+        <button onClick={()=>{this.setState({string:'Hello Andrai'})}}>
+          Change text
+
+        </button>
         <a
           className="App-link"
           href="https://reactjs.org"
