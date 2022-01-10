@@ -33,4 +33,4 @@ this.changeName = {string:"Hello Andrai"};
   );
 }
 }
-export default App;
+export  {App};
