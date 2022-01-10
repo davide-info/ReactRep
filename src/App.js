@@ -4,6 +4,7 @@ import { Component } from 'react';
 class App extends Component {
 constructor(){
 super();
+this.state = {string: "Hello David"};
 }
 
  render() {
@@ -12,7 +13,7 @@ super();
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        {this.state.string}
         </p>
         <a
           className="App-link"
