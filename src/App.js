@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
+class App extends Component {
+constructor(){
+super();
+}
 
-function App() {
+ render() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+//export default App;
